@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+        *{margin: 0; padding: 0;}
+        #wrap{
+            width: 80%;
+            margin: 30px auto;
+            border: 1px solid black;
+            /* background-color: skyblue; */
+        }
+        #logo{
+            display: flex;
+            justify-content: center;
+            /* background-color: blue; */
+        }
+        #logo-img{
+            margin-top: 50px;
+            width: 250px;
+            margin-bottom: 70px;
+        }
+        #id-passward{
+            margin: 0 auto;
+            
+            width: 400px;
+            /* background-color: pink; */
+            text-align: center;
+        }
+        #mId,#mPw{
+            width: 300px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        #mId:focus,#mPw:focus{
+            border: 5px solid rgb(10, 187, 38);
+            outline: none;
+        }
+        #checkbox{
+            margin: 0 auto;
+            width: 400px;
+            /* background-color: blue; */
+            
+        }
+        #id-checkbox{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: 5px;
+            margin-left: 50px;
+        }
+        #button{
+            margin: 0 auto;
+            width: 400px;
+            /* background-color: yellow; */
+            text-align: center;
+        }
+        #login-button{
+            width: 300px;
+            height: 30px;
+            background-color: rgb(10, 187, 38);
+            border: 0;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+        #button2{
+            margin: 0 auto;
+            width: 400px;
+            /* background-color: greenyellow; */
+            text-align: center;
+        }
+        .button3{
+            margin-top: 10px;
+            width: 100px;
+            height: 30px;
+            background-color: rgb(10, 187, 38);;
+            border: 0;
+            border-radius: 5px;
+            color: white;
+            font: normal 600 15px sans-serif;
+        }
+        .button2,.button3:hover{
+            cursor: pointer;
+        }
+        #footer{
+            display: flex;
+            justify-content: space-evenly; 
+            margin-top: 200px;
+            background-color: black;
+        }
+        #companyInfo{
+            font-size: 1rem;
+            color: white;
+            margin-top: 10px;
+        }
+        #serviceCenter{
+            font-size: 1rem;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }

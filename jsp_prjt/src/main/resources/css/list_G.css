@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+        #wrap{
+            width: 80%;
+            margin: 30px auto;
+
+        }
+        #header{
+            display: flex;
+            /* background-color: yellow; */
+        }
+        #mypage-body{
+            position: absolute;
+            left: 75%;
+        }
+        .mypage{
+            width: 50px;
+            height: 40px;
+        }
+        #all{
+            display: flex;
+        }
+        #all-left{
+            width: 15%;
+            /* background-color: green; */
+        }
+        .left-a{
+            text-decoration: none;
+            color: black;
+        }
+        .left-a:hover{
+			text-decoration: underline;
+		}
+        #all-right{
+            width: 800px;
+            /* background-color: rgb(231, 228, 228); */
+        }
+        th{
+            background-color: rgb(231, 228, 228);
+        }
+        th,td{
+            padding: 10px;
+        }
+        table,th,td{
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+        #table{
+            
+            margin-top: 20px;
+            margin-left: 2.5%;
+            width: 95%;
+            text-align: center;
+            font-size: 14px;
+        }
+        #th1{
+            width: 10%;
+        }
+        #th2{
+            width: 50%;
+        }
+        #th3{
+            width: 15%;
+        }
+        #th4{
+            width: 12%;
+        }
+        #th5{
+            width: 8%;
+        }
+        #board-write{
+            width: 100px;
+            height: 30px;
+            margin-top: 10px;
+            margin-left: 85%;
+            font-size: 15px;
+            font-weight: 800;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(46, 204, 113);
+        }
+        #search-form{
+            margin-top: 15px;
+            margin-right: 2.5%;
+            float: right;
+            font-size: 12px;
+        }
+        #search-table,#search-table th,#search-table td{
+            border: 0;
+        }
+        #a-title{
+			text-decoration: none;
+			color: black;
+		}
+		#a-title:hover{
+			text-decoration: underline;
+		}
+		#td_paging{
+			font: 14px Arial, sans-serif;
+			text-align: center;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+
+
+
+        #footer{
+            display: flex;
+            justify-content: space-evenly; 
+            margin-top: 50px;
+            background-color: black;
+        }
+        #companyInfo{
+            font-size: 1rem;
+            font-family: sans-serif;
+            color: white;
+            margin-top: 10px;
+        }
+        #serviceCenter{
+            font-size: 1rem;
+            font-family: sans-serif;
+            color: white;
+            margin-top: 10px;
+        }
